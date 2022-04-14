@@ -10,10 +10,66 @@
   display: flex;
 }
 
-.rodape__rs {
-  padding-right: 2rem;
+.rede__pessoa {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
 }
 
-.git {
-  padding: 0 1rem;
+.pessoa__text{
+  font-size: 1.1rem;
+  padding-right: 0.7rem;
+}
+
+.gitHub {
+  color: #000000;
+  font-size: 1.6rem;
+  padding-right: 0.6rem;
+}
+
+.instagram {
+  color: #cd486b;
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 0) {
+  .rodape {
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+  .redes {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .redes {
+    flex-direction: row;
+  }
+  .pessoa__text {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .rodape {
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .rodape {
+    flex-direction: row;
+    padding: 1rem 2rem;
+  }
+  .pessoa__text {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .pessoa__text {
+    font-size: 1.5rem;
+  }
 }

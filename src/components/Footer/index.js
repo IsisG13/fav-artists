@@ -6,27 +6,29 @@ const Footer = () => {
     return (
         <div>
             <footer className={styles.rodape}>
-                <p className={styles.rodape__text}>Criado por Isis e Marcelly</p>
+
+                <p className={styles.pessoa__text}>Criado por Isis e Marcelly</p>
+
                 <div className={styles.redes}>
-                    <p className={styles.rodape__rs}>
-                        Redes Sociais Isis:
-                        <a href="https://github.com/IsisG13"
-                            target="_blank" rel="noreferrer" className={styles.git}>
-                            <BsGithub color="#000" size="1.6rem" />
+                    <div className={styles.rede__pessoa}>
+                        <p className={styles.pessoa__text}>Contatos Isis: </p>
+                        <a href="https://github.com/IsisG13" target="_blank" rel="noreferrer">
+                            <BsGithub className={styles.gitHub} />
                         </a>
                         <a href="https://www.instagram.com/isis.cristal13/" target="_blank" rel="noreferrer">
-                            <BsInstagram color="#cd486b" size="1.6rem" />
+                            <BsInstagram className={styles.instagram} />
                         </a>
-                    </p>
-                    <p className={styles.rodape__rs}>
-                        Redes Sociais Marcelly:
-                        <a href="https://github.com/MarcellyGuimaraes" target="_blank" rel="noreferrer" className={styles.git}>
-                            <BsGithub color="#000" size="1.6rem" />
+                    </div>
+
+                    <div className={styles.rede__pessoa}>
+                        <p className={styles.pessoa__text}>Contatos Celly: </p>
+                        <a href="https://github.com/MarcellyGuimaraes" target="_blank" rel="noreferrer">
+                            <BsGithub className={styles.gitHub} />
                         </a>
                         <a href="https://www.instagram.com/souzacelly14/" target="_blank" rel="noreferrer">
                             <BsInstagram color="#cd486b" size="1.6rem" />
                         </a>
-                    </p>
+                    </div>
                 </div>
             </footer>
         </div>
