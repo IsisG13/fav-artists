@@ -1,0 +1,87 @@
+.artists {
+    background: #e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.artist {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.artist__conteudo {
+    padding: 1rem;
+}
+
+.artist__descricao {
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.artist__imagem {
+    height: 15rem;
+    width: 100%;
+
+}
+
+.artist__titulo {
+    font-size: 1.4375rem;
+}
+
+.artist__lista {
+    display: flex;
+    padding: 0;
+}
+.artist__item {
+    margin-right: 1.25rem;
+    list-style: none;
+}
+
+@media screen and (min-width: 0) {
+    .artists {
+        padding: 5rem 0 0 1rem;
+    }
+
+    .artist {
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .artists {
+        padding: 5rem 0 0 5rem;
+    }
+
+    .artist {
+        width: calc(46% - 1rem);
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .artist {
+        margin-right: 5rem;
+        width: 24%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .artist {
+        width: calc(26% - 1rem);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .artists {
+        padding: 5rem 0 0 4rem;
+        justify-content: center;
+    }
+
+    .artist {
+        width: 19%;
+    }
+}

@@ -1,0 +1,19 @@
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #bfbfbf;
+  padding: 1rem 3rem;
+}
+
+.redes {
+  display: flex;
+}
+
+.rodape__rs {
+  padding-right: 2rem;
+}
+
+.git {
+  padding: 0 1rem;
+}
