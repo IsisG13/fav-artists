@@ -7,8 +7,8 @@ const Pessoas = () => {
         {
             id: 1,
             nome: 'Marcelly',
-            text: 'Eu tenho 15 anos, gosto de ouvir música e de assistir animes',
-            text2: 'animes preferidos: Death Note, The Promised Neverland, Blue Exorcist',
+            text: 'Tenho 15 anos, amo ouvir música e assistir anime',
+            text2: 'Amo Death Note, também amo Billie Eilish',
             img: styles.pessoa__imagemRoberta
         },
         {
