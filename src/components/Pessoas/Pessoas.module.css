@@ -43,7 +43,6 @@
 }
 
 .pessoa__funcao {
-
   margin-bottom: 2rem;
 }
 
@@ -52,6 +51,11 @@
   font-size: 1.25rem;
   text-transform: lowercase;
   text-decoration: none;
+}
+
+.pessoa__link:nth-child(1) {
+  border-bottom: solid 2px #a3a3a3;
+  padding-bottom: 0.8rem;
 }
 
 @media screen and (min-width: 0) {
